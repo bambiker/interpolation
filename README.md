@@ -17,3 +17,6 @@ CUTHI's accuracy is higher when there are a large number of stations (over twent
 
 <img src="cuthimapidw.png" width="40%"><img src="cuthimapcuthi.png" width="40%">
 
+CUTHI and IDW accuracy (coefficient of determination) as a function of amount of stations
+<img src="cuthi-r2-rain.png">
+
