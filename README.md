@@ -11,3 +11,8 @@ Don't forget to cite us.
 
 # IDW
 Look at the [cuthi.ipynb](cuthi.ipynb) to copy the function code and the example code.
+
+# Compare
+CUTHI has higher ac
+<img src="cuthimapidw.png"><img src="cuthimapcuthi.png">
+CUTHI's accuracy is higher when there are a large number of stations (over twenty) thanks to the new weight that handles inhomogeneous spatial distribution of stations. This method also handles the bull's-eye effect created in IDW.
