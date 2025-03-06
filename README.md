@@ -7,7 +7,8 @@ Look at the [cuthi.ipynb](cuthi.ipynb) to copy the function code and the example
 
 You can easily add additional weights to the interpolation, for example, land use. If you can't do it on your own, you can add an issue and I will add this option.
 
-Don't forget to cite us.
+*Don't forget to cite us:*\
+Benmoshe, N. (2025). A Simple Solution for the Inverse Distance Weighting Interpolation (IDW) Clustering Problem. Sci, 7(1), 30. https://doi.org/10.3390/sci7010030
 
 # IDW
 Look at the [cuthi.ipynb](cuthi.ipynb) to copy the function code and the example code.
