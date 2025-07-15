@@ -13,6 +13,7 @@ Benmoshe, N. (2025). A Simple Solution for the Inverse Distance Weighting Interp
 # Download IDW and CUTHI
 * Python: Look at the [cuthi.ipynb](cuthi.ipynb) to copy the function code and the example code.
 * C: Look at the [cuthi.c](cuthi.c) to copy the function code and the example code.
+* Java: Look at the [cuthi.java](cuthi.java) to copy the function code and the example code.
 
 # Compare
 CUTHI's accuracy is higher when there are a large number of stations (over twenty) thanks to the new weight that handles inhomogeneous spatial distribution of stations. This method also handles the bull's-eye effect created in IDW.
