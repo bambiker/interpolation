@@ -12,17 +12,15 @@ class Station {
     }
 }
 
-public class cuthi {
+public class Main {
 
     public static double cuthi(double x, double y, Station[] stations, double s, double alpha) {
-        // Check for exact match
         for (Station station : stations) {
             if (station.x == x && station.y == y) {
                 return station.z;
             }
         }
 
-        // Precompute distances
         double[] rSquared = new double[stations.length];
         double[][] pairwiseDistancesSquared = new double[stations.length][stations.length];
 
@@ -99,7 +97,6 @@ public class cuthi {
             actuals[i] = stations[i].z;
         }
 
-        // Calculate R^2 score
         double mean = 0.0;
         for (double actual : actuals) {
             mean += actual;
@@ -132,7 +129,6 @@ public class cuthi {
             actuals[i] = stations[i].z;
         }
 
-        // Calculate R^2 score
         double mean = 0.0;
         for (double actual : actuals) {
             mean += actual;
@@ -200,6 +196,7 @@ public class cuthi {
 
         double cvScore = crossvalidationIdw(stations, 2);
         System.out.printf("IDW Cross validation (coefficient of determination) score is: %f (higher is better, 1.0 is perfect)%n", cvScore);
+
         cvScore = crossvalidationCuthi(stations, 2);
         System.out.printf("CUTHI Cross validation (coefficient of determination) score is: %f (higher is better, 1.0 is perfect)%n", cvScore);
     }
