@@ -10,7 +10,7 @@ You can easily add additional weights to the interpolation, for example, land us
 *Don't forget to cite :*\
 Benmoshe, N. (2025). A Simple Solution for the Inverse Distance Weighting Interpolation (IDW) Clustering Problem. Sci, 7(1), 30. https://doi.org/10.3390/sci7010030
 
-An update: Sensitivity tests indicate that adjusting the IDW weight power to zero (alpha=0) will improve the accuracy of CUTHI. More graphs to support this will be posted later.
+**An update**: Sensitivity tests indicate that adjusting the IDW weight power to zero (alpha=0) will improve the accuracy of CUTHI. More graphs to support this will be posted later.
 
 # Download IDW and CUTHI
 * Python: Look at the [cuthi.ipynb](cuthi.ipynb) to copy the function code and the example code.
